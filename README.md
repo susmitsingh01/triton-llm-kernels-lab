@@ -16,15 +16,15 @@ Modern LLM inference is bottlenecked by memory bandwidth, not compute. Every ker
 
 ## Notebooks
 
-| # | Notebook | Topic | GPU |
-|---|---|---|---|
-| 01 | [Triton Fundamentals](triton-lab-notebook-1.ipynb) | Vector Addition, Fused Softmax, Tiled GEMM | T4 |
-| 02 | [Flash Attention](triton-lab-notebook-2.ipynb) | Naive vs Flash Attention, VRAM, OOM benchmark | T4 |
-| 03 | [Transformer Blocks](triton-lab-notebook-3.ipynb) | Fused RMSNorm, RoPE, GQA | T4 |
-| 04 | [Quantization](triton-lab-notebook-4.ipynb) | INT8 weight quant, KV cache quant, perplexity | L4 |
-| 05 | [Fused SwiGLU](triton-lab-notebook-5.ipynb) | SwiGLU activation fusion | T4 |
-| 06 | [Paged Attention](triton_lab_notebook_6.ipynb) | Page table, memory pool, paged attention kernel | T4 |
-| 07 | [Roofline Analysis](triton_lab_notebook_7.ipynb) | Peak bandwidth, peak compute, kernel placement | T4 |
+| # | Notebook | Topic | GPU | Colab |
+|---|---|---|---|---|
+| 01 | Triton Fundamentals | Vector Addition, Fused Softmax, Tiled GEMM | T4 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/susmitsingh01/triton-llm-kernels-lab/blob/main/triton-lab-notebook-1.ipynb) |
+| 02 | Flash Attention | Naive vs Flash Attention, VRAM, OOM benchmark | T4 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/susmitsingh01/triton-llm-kernels-lab/blob/main/triton-lab-notebook-2.ipynb) |
+| 03 | Transformer Blocks | Fused RMSNorm, RoPE, GQA | T4 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/susmitsingh01/triton-llm-kernels-lab/blob/main/triton-lab-notebook-3.ipynb) |
+| 04 | Quantization | INT8 weight quant, KV cache quant, perplexity | L4 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/susmitsingh01/triton-llm-kernels-lab/blob/main/triton-lab-notebook-4.ipynb) |
+| 05 | Fused SwiGLU | SwiGLU activation fusion | T4 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/susmitsingh01/triton-llm-kernels-lab/blob/main/triton-lab-notebook-5.ipynb) |
+| 06 | Paged Attention | Page table, memory pool, paged attention kernel | T4 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/susmitsingh01/triton-llm-kernels-lab/blob/main/triton_lab_notebook_6.ipynb) |
+| 07 | Roofline Analysis | Peak bandwidth, peak compute, kernel placement | T4 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/susmitsingh01/triton-llm-kernels-lab/blob/main/triton_lab_notebook_7.ipynb) |
 
 ---
 
